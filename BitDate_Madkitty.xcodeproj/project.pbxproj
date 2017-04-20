@@ -14,6 +14,9 @@
 		445BD3781B2FA7D60032EB93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445BD3771B2FA7D60032EB93 /* Images.xcassets */; };
 		445BD37B1B2FA7D60032EB93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445BD3791B2FA7D60032EB93 /* LaunchScreen.xib */; };
 		445BD3871B2FA7D60032EB93 /* BitDate_MadkittyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BD3861B2FA7D60032EB93 /* BitDate_MadkittyTests.swift */; };
+		445BD3921B2FA8750032EB93 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445BD3911B2FA8750032EB93 /* CardView.swift */; };
+		44F0FC8B1B38F5FD00C3747A /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0FC8A1B38F5FD00C3747A /* SwipeView.swift */; };
+		44F0FC8E1B38FAD400C3747A /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0FC8D1B38FAD400C3747A /* CardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		445BD3801B2FA7D60032EB93 /* BitDate_MadkittyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitDate_MadkittyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		445BD3851B2FA7D60032EB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445BD3861B2FA7D60032EB93 /* BitDate_MadkittyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitDate_MadkittyTests.swift; sourceTree = "<group>"; };
+		445BD3911B2FA8750032EB93 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		44F0FC8A1B38F5FD00C3747A /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		44F0FC8D1B38FAD400C3747A /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				445BD36D1B2FA7D60032EB93 /* AppDelegate.swift */,
-				445BD3721B2FA7D60032EB93 /* ViewController.swift */,
+				44F0FC8C1B38FA6700C3747A /* ViewControllers */,
+				445BD3901B2FA8620032EB93 /* Views */,
 				445BD3741B2FA7D60032EB93 /* Main.storyboard */,
 				445BD3771B2FA7D60032EB93 /* Images.xcassets */,
 				445BD3791B2FA7D60032EB93 /* LaunchScreen.xib */,
@@ -113,6 +120,24 @@
 				445BD3851B2FA7D60032EB93 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445BD3901B2FA8620032EB93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				445BD3911B2FA8750032EB93 /* CardView.swift */,
+				44F0FC8A1B38F5FD00C3747A /* SwipeView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		44F0FC8C1B38FA6700C3747A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				445BD3721B2FA7D60032EB93 /* ViewController.swift */,
+				44F0FC8D1B38FAD400C3747A /* CardsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +242,9 @@
 			files = (
 				445BD3731B2FA7D60032EB93 /* ViewController.swift in Sources */,
 				445BD3711B2FA7D60032EB93 /* BitDate_Madkitty.xcdatamodeld in Sources */,
+				44F0FC8E1B38FAD400C3747A /* CardsViewController.swift in Sources */,
+				445BD3921B2FA8750032EB93 /* CardView.swift in Sources */,
+				44F0FC8B1B38F5FD00C3747A /* SwipeView.swift in Sources */,
 				445BD36E1B2FA7D60032EB93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +443,7 @@
 				445BD38C1B2FA7D60032EB93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		445BD38D1B2FA7D60032EB93 /* Build configuration list for PBXNativeTarget "BitDate_MadkittyTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +452,7 @@
 				445BD38F1B2FA7D60032EB93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
